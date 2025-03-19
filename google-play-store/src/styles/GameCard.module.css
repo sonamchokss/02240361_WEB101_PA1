@@ -1,0 +1,51 @@
+.card {
+    width: 300px;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .imageWrapper {
+    width: 100%;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .details {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .iconWrapper {
+    margin-right: 10px;
+  }
+  
+  .icon {
+    border-radius: 10px;
+  }
+  
+  .title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .category {
+    font-size: 14px;
+    color: gray;
+  }
+  
+  .rating {
+    font-size: 14px;
+    color: #ff9800;
+  }
+  

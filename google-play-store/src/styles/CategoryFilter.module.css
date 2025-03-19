@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .button {
+    padding: 8px 15px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    background: white;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+    transition: all 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .active {
+    background-color: #e0f2f1;
+    border-color: #26a69a;
+    color: #26a69a;
+    font-weight: bold;
+  }
+  
