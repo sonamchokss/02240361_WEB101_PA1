@@ -1,0 +1,79 @@
+.container {
+  margin: 0; /* Remove padding */
+  padding: 0; /* Remove padding */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.header nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+.headerIcons a {
+  margin-left: 10px;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.filters button {
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  background: none;
+  cursor: pointer;
+}
+
+.filters .active {
+  background-color: #e0f7fa;
+  border-color: #00acc1;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.games {
+  display: flex;
+  gap: 20px;
+  justify-content: center; /* Center align horizontally */
+  flex-wrap: wrap; /* Allow wrapping if there are too many cards */
+}
+
+.game {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 300px;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.details img {
+  margin-right: 10px;
+}
+
+.details h2 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.details p {
+  margin: 0;
+  color: #555;
+}
