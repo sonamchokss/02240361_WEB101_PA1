@@ -1,6 +1,7 @@
 .container {
-  margin: 0; /* Remove padding */
-  padding: 0; /* Remove padding */
+  margin: 0;
+  padding: 0;
+  max-width: 100%; 
 }
 
 .header {
@@ -47,8 +48,10 @@ h1 {
 .games {
   display: flex;
   gap: 20px;
-  justify-content: center; /* Center align horizontally */
-  flex-wrap: wrap; /* Allow wrapping if there are too many cards */
+  justify-content: center; 
+  flex-wrap: wrap;
+  width: 100%; 
+  margin-top: 20px; 
 }
 
 .game {
@@ -56,6 +59,7 @@ h1 {
   border-radius: 8px;
   overflow: hidden;
   width: 300px;
+  flex-shrink: 0; 
 }
 
 .details {
