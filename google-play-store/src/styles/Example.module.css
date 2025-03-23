@@ -48,18 +48,18 @@ h1 {
 .games {
   display: flex;
   gap: 20px;
-  justify-content: center; 
-  flex-wrap: wrap;
-  width: 100%; 
-  margin-top: 20px; 
+  overflow-x: auto; 
+  padding: 10px; 
+  scroll-snap-type: x mandatory; 
 }
 
 .game {
+  flex: 0 0 auto; 
+  width: 300px;
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
-  width: 300px;
-  flex-shrink: 0; 
+  scroll-snap-align: start; 
 }
 
 .details {
